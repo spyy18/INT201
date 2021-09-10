@@ -2,6 +2,7 @@
 
 ```javaScript
 class Dice {
+
     constructor(gameTitle) { //รับ parameter gameTitle คือชื่อเกมที่ใช้ลูกเต๋ษนี้ในการเล่น
     
       this._diceName = (gameTitle===undefined ? "Unknow" : gameTitle); 
@@ -34,6 +35,7 @@ class Dice {
 
 }
   
+  
   console.log("--------------------------");
   let dice1 = new Dice();
   console.log(dice1.toString());
@@ -46,7 +48,7 @@ class Dice {
   console.log("--------------------------");
   let dice2 = new Dice("Hi-lo");
   console.log(dice2.toString());
-  //เมื่อส่ง parameter เข้าไปใน class Dice
+  //เมื่อส่ง parameter เข้าไปใน class Dice 
 
 
 ```
